@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF86D9E81E0B6E8700456DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86D9E71E0B6E8700456DA2 /* AppDelegate.swift */; };
-		EF86D9EA1E0B6E8700456DA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86D9E91E0B6E8700456DA2 /* ViewController.swift */; };
-		EF86D9ED1E0B6E8700456DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF86D9EB1E0B6E8700456DA2 /* Main.storyboard */; };
-		EF86D9F21E0B6E8700456DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF86D9F01E0B6E8700456DA2 /* LaunchScreen.storyboard */; };
+		EFB999D41E0BC4E000AFA16C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB999D31E0BC4E000AFA16C /* AppDelegate.swift */; };
+		EFB999D61E0BC4E000AFA16C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB999D51E0BC4E000AFA16C /* ViewController.swift */; };
+		EFB999D91E0BC4E000AFA16C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB999D71E0BC4E000AFA16C /* Main.storyboard */; };
+		EFB999DB1E0BC4E000AFA16C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB999DA1E0BC4E000AFA16C /* Assets.xcassets */; };
+		EFB999DE1E0BC4E000AFA16C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB999DC1E0BC4E000AFA16C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF86D9E41E0B6E8700456DA2 /* Button Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Button Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF86D9E71E0B6E8700456DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF86D9E91E0B6E8700456DA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF86D9EC1E0B6E8700456DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF86D9F11E0B6E8700456DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EF86D9F31E0B6E8700456DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB999D01E0BC4E000AFA16C /* Control Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Control Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB999D31E0BC4E000AFA16C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFB999D51E0BC4E000AFA16C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFB999D81E0BC4E000AFA16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB999DA1E0BC4E000AFA16C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB999DD1E0BC4E000AFA16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB999DF1E0BC4E000AFA16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF86D9E11E0B6E8700456DA2 /* Frameworks */ = {
+		EFB999CD1E0BC4E000AFA16C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,72 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF86D9DB1E0B6E8700456DA2 = {
+		EFB999C71E0BC4E000AFA16C = {
 			isa = PBXGroup;
 			children = (
-				EF86D9E61E0B6E8700456DA2 /* Button Fun */,
-				EF86D9E51E0B6E8700456DA2 /* Products */,
+				EFB999D21E0BC4E000AFA16C /* Control Fun */,
+				EFB999D11E0BC4E000AFA16C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF86D9E51E0B6E8700456DA2 /* Products */ = {
+		EFB999D11E0BC4E000AFA16C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF86D9E41E0B6E8700456DA2 /* Button Fun.app */,
+				EFB999D01E0BC4E000AFA16C /* Control Fun.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF86D9E61E0B6E8700456DA2 /* Button Fun */ = {
+		EFB999D21E0BC4E000AFA16C /* Control Fun */ = {
 			isa = PBXGroup;
 			children = (
-				EF86D9E71E0B6E8700456DA2 /* AppDelegate.swift */,
-				EF86D9E91E0B6E8700456DA2 /* ViewController.swift */,
-				EF86D9EB1E0B6E8700456DA2 /* Main.storyboard */,
-				EF86D9F01E0B6E8700456DA2 /* LaunchScreen.storyboard */,
-				EF86D9F31E0B6E8700456DA2 /* Info.plist */,
+				EFB999D31E0BC4E000AFA16C /* AppDelegate.swift */,
+				EFB999D51E0BC4E000AFA16C /* ViewController.swift */,
+				EFB999D71E0BC4E000AFA16C /* Main.storyboard */,
+				EFB999DA1E0BC4E000AFA16C /* Assets.xcassets */,
+				EFB999DC1E0BC4E000AFA16C /* LaunchScreen.storyboard */,
+				EFB999DF1E0BC4E000AFA16C /* Info.plist */,
 			);
-			path = "Button Fun";
+			path = "Control Fun";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF86D9E31E0B6E8700456DA2 /* Button Fun */ = {
+		EFB999CF1E0BC4E000AFA16C /* Control Fun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF86D9F61E0B6E8700456DA2 /* Build configuration list for PBXNativeTarget "Button Fun" */;
+			buildConfigurationList = EFB999E21E0BC4E000AFA16C /* Build configuration list for PBXNativeTarget "Control Fun" */;
 			buildPhases = (
-				EF86D9E01E0B6E8700456DA2 /* Sources */,
-				EF86D9E11E0B6E8700456DA2 /* Frameworks */,
-				EF86D9E21E0B6E8700456DA2 /* Resources */,
+				EFB999CC1E0BC4E000AFA16C /* Sources */,
+				EFB999CD1E0BC4E000AFA16C /* Frameworks */,
+				EFB999CE1E0BC4E000AFA16C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Button Fun";
-			productName = "Button Fun";
-			productReference = EF86D9E41E0B6E8700456DA2 /* Button Fun.app */;
+			name = "Control Fun";
+			productName = "Control Fun";
+			productReference = EFB999D01E0BC4E000AFA16C /* Control Fun.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF86D9DC1E0B6E8700456DA2 /* Project object */ = {
+		EFB999C81E0BC4E000AFA16C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = andyron;
 				TargetAttributes = {
-					EF86D9E31E0B6E8700456DA2 = {
+					EFB999CF1E0BC4E000AFA16C = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ZHNA975N38;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EF86D9DF1E0B6E8700456DA2 /* Build configuration list for PBXProject "Button Fun" */;
+			buildConfigurationList = EFB999CB1E0BC4E000AFA16C /* Build configuration list for PBXProject "Control Fun" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -106,53 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = EF86D9DB1E0B6E8700456DA2;
-			productRefGroup = EF86D9E51E0B6E8700456DA2 /* Products */;
+			mainGroup = EFB999C71E0BC4E000AFA16C;
+			productRefGroup = EFB999D11E0BC4E000AFA16C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF86D9E31E0B6E8700456DA2 /* Button Fun */,
+				EFB999CF1E0BC4E000AFA16C /* Control Fun */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF86D9E21E0B6E8700456DA2 /* Resources */ = {
+		EFB999CE1E0BC4E000AFA16C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF86D9F21E0B6E8700456DA2 /* LaunchScreen.storyboard in Resources */,
-				EF86D9ED1E0B6E8700456DA2 /* Main.storyboard in Resources */,
+				EFB999DE1E0BC4E000AFA16C /* LaunchScreen.storyboard in Resources */,
+				EFB999DB1E0BC4E000AFA16C /* Assets.xcassets in Resources */,
+				EFB999D91E0BC4E000AFA16C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF86D9E01E0B6E8700456DA2 /* Sources */ = {
+		EFB999CC1E0BC4E000AFA16C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF86D9EA1E0B6E8700456DA2 /* ViewController.swift in Sources */,
-				EF86D9E81E0B6E8700456DA2 /* AppDelegate.swift in Sources */,
+				EFB999D61E0BC4E000AFA16C /* ViewController.swift in Sources */,
+				EFB999D41E0BC4E000AFA16C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF86D9EB1E0B6E8700456DA2 /* Main.storyboard */ = {
+		EFB999D71E0BC4E000AFA16C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF86D9EC1E0B6E8700456DA2 /* Base */,
+				EFB999D81E0BC4E000AFA16C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EF86D9F01E0B6E8700456DA2 /* LaunchScreen.storyboard */ = {
+		EFB999DC1E0BC4E000AFA16C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF86D9F11E0B6E8700456DA2 /* Base */,
+				EFB999DD1E0BC4E000AFA16C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -160,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EF86D9F41E0B6E8700456DA2 /* Debug */ = {
+		EFB999E01E0BC4E000AFA16C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		EF86D9F51E0B6E8700456DA2 /* Release */ = {
+		EFB999E11E0BC4E000AFA16C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,27 +255,27 @@
 			};
 			name = Release;
 		};
-		EF86D9F71E0B6E8700456DA2 /* Debug */ = {
+		EFB999E31E0BC4E000AFA16C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZHNA975N38;
-				INFOPLIST_FILE = "Button Fun/Info.plist";
+				INFOPLIST_FILE = "Control Fun/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.andyron.Button-Fun";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.andyron.Control-Fun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		EF86D9F81E0B6E8700456DA2 /* Release */ = {
+		EFB999E41E0BC4E000AFA16C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZHNA975N38;
-				INFOPLIST_FILE = "Button Fun/Info.plist";
+				INFOPLIST_FILE = "Control Fun/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.andyron.Button-Fun";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.andyron.Control-Fun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -280,25 +284,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF86D9DF1E0B6E8700456DA2 /* Build configuration list for PBXProject "Button Fun" */ = {
+		EFB999CB1E0BC4E000AFA16C /* Build configuration list for PBXProject "Control Fun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF86D9F41E0B6E8700456DA2 /* Debug */,
-				EF86D9F51E0B6E8700456DA2 /* Release */,
+				EFB999E01E0BC4E000AFA16C /* Debug */,
+				EFB999E11E0BC4E000AFA16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF86D9F61E0B6E8700456DA2 /* Build configuration list for PBXNativeTarget "Button Fun" */ = {
+		EFB999E21E0BC4E000AFA16C /* Build configuration list for PBXNativeTarget "Control Fun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF86D9F71E0B6E8700456DA2 /* Debug */,
-				EF86D9F81E0B6E8700456DA2 /* Release */,
+				EFB999E31E0BC4E000AFA16C /* Debug */,
+				EFB999E41E0BC4E000AFA16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF86D9DC1E0B6E8700456DA2 /* Project object */;
+	rootObject = EFB999C81E0BC4E000AFA16C /* Project object */;
 }
